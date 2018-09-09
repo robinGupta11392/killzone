@@ -10,9 +10,11 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 public class TakeScreenshot {
-	static int countOfScreenshot=1;
+	public static int countOfScreenshot=1;
 	
-	static long pathDir = System.currentTimeMillis();
+	public static long pathDir = System.currentTimeMillis();
+	
+//	public static String timestamp = null;
 	
 	public static void captureScreen(WebDriver driver) throws IOException
 	{

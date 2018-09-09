@@ -23,7 +23,7 @@ public class LoginPage {
 		this.wait=wait;
 	}
 	
-	public void doLogin(String username, String password) throws IOException 
+	public void doLogin(String username, String password) throws IOException, InterruptedException 
 	{
 		this.username=username;
 		this.password=password;
@@ -35,6 +35,8 @@ public class LoginPage {
 		enterPassword(password);
 		TakeScreenshot.captureScreenNew(driver);
 		hitSubmit();
+		Thread.sleep(2000);
+		TakeScreenshot.captureScreenNew(driver);
 		validateLogIn();
 		TakeScreenshot.captureScreenNew(driver);
 	}
