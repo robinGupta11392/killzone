@@ -11,9 +11,11 @@ import org.openqa.selenium.WebDriver;
 
 public class TakeScreenshot {
 	static int countOfScreenshot=1;
+	
+	static long pathDir = System.currentTimeMillis();
+	
 	public static void captureScreen(WebDriver driver) throws IOException
 	{
-//		String timestamp=String.valueOf(countOfScreenshot++);
 		
 //		Testing random Code
 		Random r = new Random();
@@ -21,6 +23,14 @@ public class TakeScreenshot {
 		
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         Files.copy(scrFile.toPath(),(new File("Screenshots/"+timestamp+".png")).toPath());
+	}
+	
+	public static void captureScreenNew(WebDriver driver) throws IOException
+	{
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);        
+        File targetFile = new File("Screenshots/"+pathDir+"/"+ (countOfScreenshot++) +".png");
+        targetFile.getParentFile().mkdirs();
+        Files.copy(scrFile.toPath(),targetFile.toPath());
 	}
 
 }
