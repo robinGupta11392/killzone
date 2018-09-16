@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.training.utilities.TakeScreenshot;
+import com.utilities.TakeScreenshot;
 
 public class LoginPage {
 	WebDriver driver;

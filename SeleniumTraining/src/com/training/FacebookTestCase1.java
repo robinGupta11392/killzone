@@ -10,8 +10,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.facebook.pages.LoginPage;
-import com.training.utilities.CreateHTMLReport;
-import com.training.utilities.TakeScreenshot;
+import com.utilities.CreateHTMLReport;
+import com.utilities.TakeScreenshot;
 
 public class FacebookTestCase1 {
 
