@@ -21,17 +21,17 @@ public class CalendarSelenium {
 		String outmonth = sdf.format(date);
 		System.out.println(outmonth);
 		
-		d.findElement(By.id("txtJourneyDate")).click();
-		Thread.sleep(1000);
-		
-		d.findElement(By.xpath("//a[text()=\"29\"]")).click();
-		
-		d.findElement(By.id("txtJourneyDate")).click();
-		Thread.sleep(1000);
-		
-		d.findElement(By.xpath("//a[text()=\"30\"]")).click();
-		
-		Thread.sleep(5000);
+//		d.findElement(By.id("txtJourneyDate")).click();
+//		Thread.sleep(1000);
+//		
+//		d.findElement(By.xpath("//a[text()=\"29\"]")).click();
+//		
+//		d.findElement(By.id("txtJourneyDate")).click();
+//		Thread.sleep(1000);
+//		
+//		d.findElement(By.xpath("//a[text()=\"30\"]")).click();
+//		
+//		Thread.sleep(5000);
 		
 		d.findElement(By.id("txtJourneyDate")).click();
 		Thread.sleep(1000);	

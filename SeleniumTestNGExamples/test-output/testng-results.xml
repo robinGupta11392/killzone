@@ -1,100 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="GroupsExample" duration-ms="52" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
+  <suite name="Default suite" duration-ms="25546" started-at="2018-09-23T18:13:19Z" finished-at="2018-09-23T18:13:45Z">
     <groups>
-      <group name="SmokeTest">
-        <method signature="GroupingExample.google()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="google" class="com.testngexamples.intellipaatsolutions.GroupingExample"/>
-      </group> <!-- SmokeTest -->
-      <group name="functional">
-        <method signature="GroupingExample.google()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="google" class="com.testngexamples.intellipaatsolutions.GroupingExample"/>
-        <method signature="GroupingExample.newtours()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="newtours" class="com.testngexamples.intellipaatsolutions.GroupingExample"/>
-      </group> <!-- functional -->
-      <group name="RegressionTest">
-        <method signature="GroupingExample.aix()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="aix" class="com.testngexamples.intellipaatsolutions.GroupingExample"/>
-        <method signature="GroupingExample.newtours()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="newtours" class="com.testngexamples.intellipaatsolutions.GroupingExample"/>
-      </group> <!-- RegressionTest -->
     </groups>
-    <test name="GroupTesting" duration-ms="52" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
-      <class name="com.testngexamples.intellipaatsolutions.GroupingExample">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="beforeSuite" is-config="true" duration-ms="25" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
+    <test name="Default test" duration-ms="25546" started-at="2018-09-23T18:13:19Z" finished-at="2018-09-23T18:13:45Z">
+      <class name="com.testngexamples.intellipaatsolutions.DataProvideExample2">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="initialize" is-config="true" duration-ms="6398" started-at="2018-09-23T18:13:19Z" finished-at="2018-09-23T18:13:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="launchFacebook(java.lang.String, java.lang.String)[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="launchFacebook" duration-ms="2987" started-at="2018-09-23T18:13:26Z" data-provider="facebookDataName" finished-at="2018-09-23T18:13:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="launch()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="launch" is-config="true" duration-ms="0" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
+        </test-method> <!-- launchFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-23T18:13:29Z" finished-at="2018-09-23T18:13:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method status="PASS" signature="beforeGroups()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="beforeGroups" is-config="true" duration-ms="0" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="initialize" is-config="true" duration-ms="5449" started-at="2018-09-23T18:13:29Z" finished-at="2018-09-23T18:13:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeGroups -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="launchFacebook(java.lang.String, java.lang.String)[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="launchFacebook" duration-ms="2997" started-at="2018-09-23T18:13:34Z" data-provider="facebookDataName" finished-at="2018-09-23T18:13:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="aix()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="aix" duration-ms="7" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
+        </test-method> <!-- launchFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-23T18:13:37Z" finished-at="2018-09-23T18:13:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aix -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="initialize" is-config="true" duration-ms="5034" started-at="2018-09-23T18:13:37Z" finished-at="2018-09-23T18:13:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="google()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="google" duration-ms="4" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="launchFacebook(java.lang.String, java.lang.String)[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="launchFacebook" duration-ms="2641" started-at="2018-09-23T18:13:42Z" data-provider="facebookDataName" finished-at="2018-09-23T18:13:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- google -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="afterMethods" is-config="true" duration-ms="0" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
+        </test-method> <!-- launchFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-23T18:13:45Z" finished-at="2018-09-23T18:13:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="beforeGroups()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="beforeGroups" is-config="true" duration-ms="0" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeGroups -->
-        <test-method status="PASS" signature="newtours()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="newtours" duration-ms="4" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newtours -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="afterMethods" is-config="true" duration-ms="0" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="afterGroups()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="afterGroups" is-config="true" duration-ms="0" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterGroups -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="afterMethods" is-config="true" duration-ms="4" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="afterGroups()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="afterGroups" is-config="true" duration-ms="0" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterGroups -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="logout" is-config="true" duration-ms="0" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="afterTest" is-config="true" duration-ms="4" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testngexamples.intellipaatsolutions.GroupingExample@cb5822]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-09-23T17:21:35Z" finished-at="2018-09-23T17:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.testngexamples.intellipaatsolutions.GroupingExample -->
-    </test> <!-- GroupTesting -->
-  </suite> <!-- GroupsExample -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testngexamples.intellipaatsolutions.DataProvideExample2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
