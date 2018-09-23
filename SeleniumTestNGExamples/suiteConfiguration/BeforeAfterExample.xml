@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BeforeAfterExampe" parallel="classes">
+  <test thread-count="5" name="MutlipleTests">
+<!--   <test thread-count="5" name="MutlipleTests" parallel="classes"> -->
+    <classes>
+      <class name="com.testngexamples.intellipaatsolutions.BeforeAndAfterExample"/>
+      <class name="com.testngexamples.intellipaatsolutions.BeforeAndAfterExample2"/>
+    </classes>
+  </test> <!-- MutlipleTests -->
+</suite> <!-- SuiteExample -->
+
+<!-- Output -->
+<!-- [RemoteTestNG] detected TestNG version 6.14.2 -->
+<!-- BeforeSuite done -->
+<!-- BeforeSuite2 Done -->
+<!-- BeforeTest Done -->
+<!-- BeforeTest2 Done -->
+<!-- BeforeClass2 Done -->
+<!-- BeforeClass Done -->
+<!-- BeforeMethod2 Done -->
+<!-- BeforeMethod done -->
+<!-- TestFacebook2 Done -->
+<!-- TestFacebook Done -->
+<!-- AfterMethods2 Done -->
+<!-- BeforeMethod2 Done -->
+<!-- AfterMethods Done -->
+<!-- BeforeClass Done -->
+<!-- TestGoogle2 Done -->
+<!-- BeforeMethod done -->
+<!-- AfterMethods2 Done -->
+<!-- AfterClass2 Done -->
+<!-- TestGoogle Done -->
+<!-- AfterMethods Done -->
+<!-- AfterClass Done -->
+<!-- AfterTest Done -->
+<!-- AfterTest2 Done -->
+<!-- AfterSuite Done -->
+<!-- AfterSuite2 Done -->
+
+<!-- =============================================== -->
+<!-- SuiteExample -->
+<!-- Total tests run: 4, Failures: 0, Skips: 0 -->
+<!-- =============================================== -->

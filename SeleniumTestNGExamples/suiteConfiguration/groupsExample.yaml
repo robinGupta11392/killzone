@@ -1,0 +1,8 @@
+name: GroupsExample
+configFailurePolicy: skip
+tests:
+  - name: GroupTesting
+    includedGroups: [ functional ]
+    classes:
+      - com.testngexamples.intellipaatsolutions.GroupingExample
+
