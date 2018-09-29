@@ -7,8 +7,6 @@ without priority Tests run in alphabetical order
 
 package com.testngexamples.intellipaatsolutions;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterGroups;
 import org.testng.annotations.AfterMethod;
