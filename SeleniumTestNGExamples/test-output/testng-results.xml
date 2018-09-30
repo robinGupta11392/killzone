@@ -1,85 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25546" started-at="2018-09-23T18:13:19Z" finished-at="2018-09-23T18:13:45Z">
+  <suite name="Suite" duration-ms="14883" started-at="2018-09-30T15:40:47Z" finished-at="2018-09-30T15:41:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25546" started-at="2018-09-23T18:13:19Z" finished-at="2018-09-23T18:13:45Z">
-      <class name="com.testngexamples.intellipaatsolutions.DataProvideExample2">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="initialize" is-config="true" duration-ms="6398" started-at="2018-09-23T18:13:19Z" finished-at="2018-09-23T18:13:26Z">
+    <test name="Test" duration-ms="14883" started-at="2018-09-30T15:40:47Z" finished-at="2018-09-30T15:41:02Z">
+      <class name="com.testngexamples.intellipaatsolutions.PageFactoryExample">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testngexamples.intellipaatsolutions.PageFactoryExample@457e2f02]" name="setup" is-config="true" duration-ms="7931" started-at="2018-09-30T15:40:47Z" finished-at="2018-09-30T15:40:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="launchFacebook(java.lang.String, java.lang.String)[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="launchFacebook" duration-ms="2987" started-at="2018-09-23T18:13:26Z" data-provider="facebookDataName" finished-at="2018-09-23T18:13:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[a]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginFacebook()[pri:0, instance:com.testngexamples.intellipaatsolutions.PageFactoryExample@457e2f02]" name="loginFacebook" duration-ms="6162" started-at="2018-09-30T15:40:55Z" finished-at="2018-09-30T15:41:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchFacebook -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-23T18:13:29Z" finished-at="2018-09-23T18:13:29Z">
+        </test-method> <!-- loginFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngexamples.intellipaatsolutions.PageFactoryExample@457e2f02]" name="tearDown" is-config="true" duration-ms="766" started-at="2018-09-30T15:41:01Z" finished-at="2018-09-30T15:41:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="initialize" is-config="true" duration-ms="5449" started-at="2018-09-23T18:13:29Z" finished-at="2018-09-23T18:13:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="launchFacebook(java.lang.String, java.lang.String)[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="launchFacebook" duration-ms="2997" started-at="2018-09-23T18:13:34Z" data-provider="facebookDataName" finished-at="2018-09-23T18:13:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchFacebook -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-23T18:13:37Z" finished-at="2018-09-23T18:13:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="initialize" is-config="true" duration-ms="5034" started-at="2018-09-23T18:13:37Z" finished-at="2018-09-23T18:13:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="launchFacebook(java.lang.String, java.lang.String)[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="launchFacebook" duration-ms="2641" started-at="2018-09-23T18:13:42Z" data-provider="facebookDataName" finished-at="2018-09-23T18:13:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchFacebook -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngexamples.intellipaatsolutions.DataProvideExample2@18be83e4]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-23T18:13:45Z" finished-at="2018-09-23T18:13:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.testngexamples.intellipaatsolutions.DataProvideExample2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.testngexamples.intellipaatsolutions.PageFactoryExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
