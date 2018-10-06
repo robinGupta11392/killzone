@@ -58,5 +58,7 @@
 	<classpathentry kind="lib" path="C:/Users/KillZone/Downloads/Softwares/htmlunit-2.33/lib/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/KillZone/Downloads/Softwares/htmlunit-2.33/lib/xercesImpl-2.12.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/KillZone/Downloads/Softwares/htmlunit-2.33/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KillZone/Downloads/Softwares/sikulixapi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KillZone/SeleniumGIT/SeleniumTraining/libs/server.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
