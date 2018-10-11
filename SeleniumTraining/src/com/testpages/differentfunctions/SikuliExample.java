@@ -1,5 +1,6 @@
 package com.testpages.differentfunctions;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.sikuli.hotkey.Keys;
@@ -13,6 +14,8 @@ public class SikuliExample {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\KillZone\\Downloads\\Softwares\\chromedriver.exe");
 		WebDriver d = new ChromeDriver();
 		d.get("https://www.google.com/");
+		
+		d.findElement(By.id("asdf")).submit();
 		
 		Screen searchBox = new Screen();
 		Pattern searchBoxInput = new Pattern("SikuliImages\\GoogleSearchBox.JPG");
