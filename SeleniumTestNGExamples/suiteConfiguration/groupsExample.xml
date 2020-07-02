@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GroupsExample" parallel="none">
+
+<!-- 	<groups> -->
+<!-- 		<run> -->
+<!-- 			<include name="SmokeTest"></include> -->
+<!-- 		</run> -->
+<!-- 	</groups> -->
+	
+<!-- 	<groups> -->
+<!-- 		<run> -->
+<!-- 			<include name="RegressionTest"></include> -->
+<!-- 		</run> -->
+<!-- 	</groups> -->
+	
+	<groups>
+		<run>
+			<include name="functional"></include>
+			<include name="RegressionTest"></include>
+		</run>
+	</groups>
+	
+<!-- 	Output -->
+<!-- 	BeforeSuite2 Done -->
+<!-- 	BeforeTest2 Done -->
+<!-- 	BeforeClass2 Done -->
+<!-- 	BeforeGroups2 Done -->
+<!-- 	BeforeMethod2 Done -->
+<!-- 	TestAIX2 Done -->
+<!-- 	AfterMethods2 Done -->
+<!-- 	BeforeGroups2 Done -->
+<!-- 	BeforeMethod2 Done -->
+<!-- 	TestGoogle2 Done -->
+<!-- 	AfterMethods2 Done -->
+<!-- 	AfterGroups2 Done -->
+<!-- 	BeforeMethod2 Done -->
+<!-- 	TestNewTours2 Done -->
+<!-- 	AfterMethods2 Done -->
+<!-- 	AfterGroups2 Done -->
+<!-- 	AfterClass2 Done -->
+<!-- 	AfterTest2 Done -->
+<!-- 	AfterSuite2 Done -->
+	
+	<test thread-count="5" name="GroupTesting">
+		<classes>
+			<class name="com.testngexamples.intellipaatsolutions.GroupingExample" />
+		</classes>
+	</test> <!-- GroupTesting -->
+</suite> <!-- GroupsExample -->

@@ -1,0 +1,5 @@
+classes/*
+surefire-reports/*
+
+!classes/.gitkeep
+!surefire-reports/.gitkeep

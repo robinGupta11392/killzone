@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="vlocityhometest.vlocityhometest.StringSplitterTest" duration-ms="63" started-at="2019-03-11T10:12:13Z" finished-at="2019-03-11T10:12:13Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="63" started-at="2019-03-11T10:12:13Z" finished-at="2019-03-11T10:12:13Z">
+      <class name="vlocityhometest.vlocityhometest.StringSplitterTest">
+        <test-method status="PASS" signature="testWithOneSeparator()[pri:0, instance:vlocityhometest.vlocityhometest.StringSplitterTest@1cd072a9]" name="testWithOneSeparator" duration-ms="20" started-at="2019-03-11T10:12:13Z" finished-at="2019-03-11T10:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithOneSeparator -->
+        <test-method status="PASS" signature="testWithOneSeparator2()[pri:0, instance:vlocityhometest.vlocityhometest.StringSplitterTest@1cd072a9]" name="testWithOneSeparator2" duration-ms="0" started-at="2019-03-11T10:12:13Z" finished-at="2019-03-11T10:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithOneSeparator2 -->
+        <test-method status="PASS" signature="testWithOneSeparatorButNoMatch()[pri:0, instance:vlocityhometest.vlocityhometest.StringSplitterTest@1cd072a9]" name="testWithOneSeparatorButNoMatch" duration-ms="1" started-at="2019-03-11T10:12:13Z" finished-at="2019-03-11T10:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithOneSeparatorButNoMatch -->
+        <test-method status="PASS" signature="testWithTwoSeparator()[pri:0, instance:vlocityhometest.vlocityhometest.StringSplitterTest@1cd072a9]" name="testWithTwoSeparator" duration-ms="0" started-at="2019-03-11T10:12:13Z" finished-at="2019-03-11T10:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithTwoSeparator -->
+        <test-method status="PASS" signature="testWithTwoSeparator2()[pri:0, instance:vlocityhometest.vlocityhometest.StringSplitterTest@1cd072a9]" name="testWithTwoSeparator2" duration-ms="0" started-at="2019-03-11T10:12:13Z" finished-at="2019-03-11T10:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithTwoSeparator2 -->
+        <test-method status="PASS" signature="testWithTwoSeparatorButNoMatch()[pri:0, instance:vlocityhometest.vlocityhometest.StringSplitterTest@1cd072a9]" name="testWithTwoSeparatorButNoMatch" duration-ms="0" started-at="2019-03-11T10:12:13Z" finished-at="2019-03-11T10:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithTwoSeparatorButNoMatch -->
+        <test-method status="PASS" signature="testWithTwoSeparatorButOnlyOneMatch()[pri:0, instance:vlocityhometest.vlocityhometest.StringSplitterTest@1cd072a9]" name="testWithTwoSeparatorButOnlyOneMatch" duration-ms="0" started-at="2019-03-11T10:12:13Z" finished-at="2019-03-11T10:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithTwoSeparatorButOnlyOneMatch -->
+      </class> <!-- vlocityhometest.vlocityhometest.StringSplitterTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- vlocityhometest.vlocityhometest.StringSplitterTest -->
+</testng-results>
