@@ -1,0 +1,27 @@
+Assignment 2
+Try creating a framework with below configuration
+
+Entry Point --> 
+	Read Test data from a text file containing FirstName, LastName, Number
+	We need to run below steps for all rows inside above file and store screenshot under folder "screens/Assignment2/TestCase<Number of Row>/<TimeStamp>" folder:
+		1. Open "http://newtours.demoaut.com/", verify Title "Welcome: Mercury Tours", take screenshot
+		2. Register using "testing123" "testing123"
+		3. Click on "Flights" from left Ribbon, verify "Flight Finder" text, take screenshot
+		4. Select "One Way", take screenshot
+		5. Click "Continue", verify "Select Flight" text, , take screenshot
+		6. Click "Continue", verify "Book a flight" text, , take screenshot
+		7. Fill FirstName, LastName, NUmber on page, take screenshot
+		8. Click on Home on left ribbon
+		9. Close Browser Tab
+		
+Assignment 3
+<Take Screenshot after every step and save at screens/Assignment3/<timestamp> folder>
+1. Open "http://the-internet.herokuapp.com/", validate title
+2. Click on "Multiple Windows", validate title of new window
+3. Click on "Click Here", validate title of new window
+4. Switch to other window and take screenshot
+5. Open a new window again by clicking "Click Here"
+6. Print all Cookies, title and window Handles of all 3 opened window
+7. Close 3rd (newly opened window)
+8. Open a new window again using "Click Here" and print all window handles
+9. Finally close all the windows
