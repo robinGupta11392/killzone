@@ -1,4 +1,4 @@
-package com.problems;
+package com.problems.string;
 
 import java.io.*;
 import java.math.*;

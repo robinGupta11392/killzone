@@ -1,4 +1,4 @@
-package com.problems;
+package com.problems.arrays;
 
 import java.io.*;
 import java.math.*;
